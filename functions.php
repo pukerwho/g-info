@@ -201,7 +201,7 @@ function tutCount($id) {
     $count_value = $count_value + 1;
     update_post_meta( $id, 'post_count', $count_value );
   } else {
-    add_post_meta( $id, 'post_count', '200', true);
+    add_post_meta( $id, 'post_count', '5', true);
   }
   $post_count = get_post_meta( $id, 'post_count', true );
   return $post_count;

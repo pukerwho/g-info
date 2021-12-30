@@ -12,6 +12,13 @@ function crb_post_theme_options() {
         Field::make( 'text', 'crb_ads_phone', 'Телефон' ),
       )),
       Field::make( 'media_gallery', 'crb_ads_photos', 'Фотографии' )->set_type( array( 'image' ) ),
+      Field::make( 'select', 'crb_ads_location', 'Регион' )
+      ->add_options( array(
+        'Геническ' => 'Геническ',
+        'Генгорка' => 'Генгорка',
+        'Счастливцево' => 'Счастливцево',
+        'Стрелковое' => 'Стрелковое',
+      ) ),
   ) );
 }
 
