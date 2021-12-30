@@ -184,6 +184,9 @@
               <?php get_template_part( 'template-parts/block-ads' ); ?> 
             </div>
             <div class="mb-6">
+              <?php get_template_part( 'template-parts/block-products' ); ?>
+            </div>
+            <div class="mb-6">
               <?php get_template_part( 'template-parts/block-humor' ); ?>
             </div>
             <div class="mb-6">
