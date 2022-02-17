@@ -162,6 +162,9 @@ get_header();
 						<?php get_template_part( 'template-parts/block-ads' ); ?>	
 					</div>
 					<div class="mb-6">
+						<?php get_template_part('template-parts/block-comments'); ?>
+					</div>
+					<div class="mb-6">
 						<?php get_template_part('template-parts/block-top-posts'); ?>
 					</div>
 					<div class="mb-6">
